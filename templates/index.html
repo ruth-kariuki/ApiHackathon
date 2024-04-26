@@ -1,0 +1,40 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href= "{% static 'style.css' %}">" />
+  <title>My First Django App</title>
+</head>
+<body>
+  <h1>Description and Features of Random Fox Breeds</h1>
+  <p>While foxes are not traditionally domesticated pets, there are several breeds of foxes that are popular in captivity. However, it's important to remember that owning a fox requires special considerations and permits depending on your location. Here are ten interesting fox breeds/species that you can consider for your next furry friend:</p>  
+  <h1>Fennec Fox</h1>
+  <p>Description: Fennec foxes are small foxes with distinctive large ears that help dissipate heat and locate prey underground. They have sandy-colored fur and a bushy tail.
+  Habitat: Found in desert environments, particularly the Sahara Desert in North Africa.
+  Range: Fennec foxes are native to North Africa and parts of the Middle East.</p>
+  <h2>Red Fox</h2>
+  <p>Description: Red foxes are known for their reddish-orange fur, though they can also have variations in color such as silver or cross colors. They have a long, bushy tail and a slender muzzle.
+    Habitat: They inhabit a wide range of ecosystems including forests, grasslands, mountains, and urban areas.
+    Range: Red foxes have a broad geographical distribution across the Northern Hemisphere, including North America, Europe, Asia, and parts of North Africa.</p> 
+  <h3>Arctic Fox</h3>
+  <p>Description: Arctic foxes have a thick white coat during winter which turns brown or grayish-brown in summer. They have small ears and a compact body to conserve heat in cold environments.
+  Habitat: They are found in Arctic and subarctic regions, including tundra habitats.
+  Range: Arctic foxes are native to the Arctic regions of North America, Europe, and Asia.</p>
+  <h4>Kit Fox</h4>
+  <p>Origin: North American Deserts
+  Description: Kit foxes are small foxes with a greyish-brown coat and large ears. They have excellent hearing which helps them locate prey underground.</p>
+  <h5>Silver Fox</h5>
+  <p>Origin: Mutation of Red Fox
+  Description: The Silver fox is a melanistic form of the red fox, with a thick silver-tipped black coat. They were once popular in fur farming.</p>
+  <h6>Swift Fox</h6>
+  <p>Origin: North American Great Plains
+  Description: Swift foxes are the fastest canid in North America, reaching speeds of up to 40 miles per hour. They have a light brown coat with black markings on their legs and face.</p>
+
+  {{results}}
+  <img src={{results}} alt="Fox Breed Images" />
+  
+</body>
+</html>

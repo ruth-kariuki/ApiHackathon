@@ -1,0 +1,78 @@
+/* style.css */
+
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p {
+  margin: 20;
+  padding: 30;
+}
+
+/* Apply styles to the heading tags */
+h1 {
+  color: #110de7; 
+  font-size: 24px; /* Adjust heading font size */
+  margin-bottom: 10px; /* Add some space below the heading */
+  font-family: Algerian, Comic Sans MS; /* Change to your preferred font family */
+
+}
+
+h2 {
+  color: #080fe2; /* Change heading text color */
+  font-size: 20px; /* Adjust heading font size */
+  margin-top: 20px; /* Add some space above the heading */
+}
+
+h3 {
+  color: #1f11df; /* Change heading text color */
+  font-size: 18px; /* Adjust heading font size */
+  margin-top: 15px; /* Add some space above the heading */
+}
+
+h4 {
+  color: #230adb; /* Change heading text color */
+  font-size: 16px; /* Adjust heading font size */
+  margin-top: 12px; /* Add some space above the heading */
+}
+
+h5 {
+  color: #0910dc; /* Change heading text color */
+  font-size: 14px; /* Adjust heading font size */
+  margin-top: 10px; /* Add some space above the heading */
+}
+
+h6 {
+  color: #0815d4; /* Change heading text color */
+  font-size: 12px; /* Adjust heading font size */
+  margin-top: 8px; /* Add some space above the heading */
+}
+
+/* Apply styles to paragraphs */
+p {
+  color: #111212; /* Change paragraph text color */
+  font-size: 16px; /* Adjust paragraph font size */
+  line-height: 1.5; /* Set line height for better readability */
+  margin-bottom: 20px; /* Add some space below the paragraph */
+  font-family: Comic Sans MS; /* Change to your preferred font family */
+}
+
+/* Apply styles to the image */
+img{
+  width: 500px;
+  height: 300px;
+  border-radius: 9999;
+
+}
+
+/* Set background color for the body */
+body {
+  background-color: #d73cb6; /* Change to your preferred background color */
+}
+
+/* Set font family for the entire document */
+body {
+  font-family: Algerian, Comic Sans MS; /* Change to your preferred font family */
+}
+
+
+
+
+
